@@ -1,0 +1,59 @@
+.navbar{
+    background-color: #5e4485;
+}
+.fa{
+    font-size: 30px;
+    color: #fff;
+}
+.nav-item > .nav-link{
+    color:#d5d5d5;
+    font-size: 1.2em;
+    border: 0;
+    font-weight: 600;
+}
+
+
+.nav-item > .nav-link:hover{
+    color: #fff;
+}
+
+
+.cap{
+top: 50%;
+}
+.cap > h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-family: monospace;
+}
+.cap > .btn{
+    font-size: 18px;
+    color: #fff;
+    padding: 9px 22px;
+    background: #5e4485;
+    border: 2px solid #fff;
+}
+
+#footer{
+    background-color: #5e4485;
+}
+.fab{
+    font-size: 1.4rem;
+    letter-spacing: 27px;
+    text-align: center;
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .cap{
+        display: none;
+    }
+    #about{
+
+    }
+}
